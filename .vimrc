@@ -17,7 +17,7 @@ set number                                                  " always show line n
 set shiftround                                              " use multiple of shiftwidth when indenting with '<' and '>'
 set showmatch                                               " set show matching parenthesis
 set smartcase                                               " ignore case if search pattern is all lowercase, case-sensitive otherwise
-set nobackup
+"set nobackup
 set nocompatible
 set noic
 set noswapfile
@@ -84,6 +84,8 @@ autocmd     FileType            python      compiler    pyunit
 
 """ ---- Bundles ------
 
+Bundle 'Windows-PowerShell-Syntax-Plugin'
+Bundle 'sudo.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-ragtag'
